@@ -11,6 +11,7 @@ import B from './components/B';
 import BasicReducer from './components/BasicReducer';
 import  {useReducer} from 'react'
 import CompB from './components/CompB';
+import Memo from './components/Memo'
 
 
 
@@ -43,9 +44,10 @@ function App() {
             <TimerContainer/>
             <ApiFetch />
         <B /> 
-        <BasicReducer/>*/}
+        <BasicReducer/>
         Count {count}
-        <CompB/>
+        <CompB/>*/}
+        <Memo />
       </header>
     </div>
   </AppContext.Provider>
