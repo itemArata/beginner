@@ -7,6 +7,7 @@ const CompC = () => {
     return (
         <div>
             <button onClick={()=> dispatchprovided('add_1')}>Add + 1</button>
+            <button onClick={()=> dispatchprovided('reset')}>reset</button>
         </div>
     )
 }
